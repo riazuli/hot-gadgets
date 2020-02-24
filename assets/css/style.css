@@ -47,3 +47,46 @@ button:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.slide-text h2 {
+  color: #1f1f1f;
+  font-size: 40px;
+}
+
+.slide-text p {
+  font-size: 18px;
+}
+
+.primary-button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.hero-area {
+  padding: 30px 0px;
+}
+
+.hero-area .carousel-indicators li {
+  background-color: #cecece;
+  opacity: 1;
+  width: 16px;
+  height: 12px;
+  border-radius: 6px;
+  display: inline-block;
+  border: 0px;
+  transition: all 0.3s ease;
+}
+
+.hero-area .carousel-indicators li.active {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 156, 53, 1) 0%,
+    rgba(255, 208, 25, 1) 100%
+  );
+  width: 45px;
+}
